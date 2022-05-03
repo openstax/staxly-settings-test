@@ -22,12 +22,12 @@ collaborators:
 teams:
   # - name: all
   #   permission: read
-#   - name: ce-admins
-#     permission: admin
-#   - name: ce-all
-#     permission: triage
+  - name: ce-admins
+    permission: admin
+  - name: ce-all
+    permission: triage
   - name: content-managers
-    permission: read
+    permission: admin
 
 branches:
   - name: main

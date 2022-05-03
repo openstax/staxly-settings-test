@@ -20,12 +20,12 @@ collaborators:
 
 # See https://docs.github.com/en/rest/reference/teams#add-or-update-team-repository-permissions for available options
 teams:
-  # - name: all
-  #   permission: read
+  - name: all
+    permission: pull
   - name: ce-admins
     permission: admin
   - name: ce-all
-    permission: triage
+    permission: pull
   - name: content-managers
     permission: admin
 

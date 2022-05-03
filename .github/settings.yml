@@ -25,7 +25,7 @@ teams:
   - name: ce-admins
     permission: admin
   - name: ce-all
-    permission: triage
+    permission: pull
   - name: content-managers
     permission: admin
 

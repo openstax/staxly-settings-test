@@ -26,8 +26,8 @@ teams:
 #     permission: admin
 #   - name: ce-all
 #     permission: triage
-  # - name: content-managers
-  #   permission: admin
+  - name: content-managers
+    permission: read
 
 branches:
   - name: main

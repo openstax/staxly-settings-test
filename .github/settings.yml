@@ -12,7 +12,7 @@ repository:
 
   allow_auto_merge: true
   delete_branch_on_merge: true
-  # allow_forking: true
+  allow_forking: true
 
 # Collaborators: give specific users access to this repository.
 # See https://docs.github.com/en/rest/reference/repos#add-a-repository-collaborator for available options
@@ -25,7 +25,7 @@ teams:
   - name: ce-admins
     permission: admin
   - name: ce-all
-    permission: pull
+    permission: triage
   - name: content-managers
     permission: admin
 

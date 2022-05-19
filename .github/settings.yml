@@ -6,9 +6,11 @@ repository:
   has_wiki: false
   has_projects: false
   has_downloads: false
+  allow_forking: true
+  
+  default_branch: main
 
   delete_branch_on_merge: true
-  allow_forking: true
 
 teams:
   - name: ce-admins

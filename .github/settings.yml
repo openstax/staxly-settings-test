@@ -1,16 +1,11 @@
-# These settings are synced to GitHub by https://probot.github.io/apps/settings/ via https://github.com/openstax/staxly
-
 repository:
-  private: true
-
-  has_issues: false
-  has_wiki: false
-  has_projects: false
-  has_downloads: false
-
   allow_auto_merge: true
   delete_branch_on_merge: true
-
+  has_downloads: false
+  has_issues: false
+  has_projects: false
+  has_wiki: false
+  private: false
 teams:
-  - name: ce-admins
-    permission: admin
+- name: ce-admins
+  permission: admin
